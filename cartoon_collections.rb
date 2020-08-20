@@ -1,8 +1,9 @@
 def roll_call_dwarves(dwarves)
   dwarves.each.with_index(1) {|name, idx|puts "/#{idx}.* #{name}/"}
 end
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer)
+  planeteer.collect do |member|
+    member.capitalize + "!"
 end
 
 def long_planeteer_calls# code an argument here
