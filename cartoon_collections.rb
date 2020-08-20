@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each.with_index (1) {|name, idx|puts "/#{idx}.* #{name}/"}
+  dwarves.each.with_index(1) {|name, idx|puts "/#{idx}.* #{name}/"}
   end
 end
 
